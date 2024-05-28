@@ -1,3 +1,5 @@
+-- Add missing import statement for the department table
+FROM department
 SELECT
 employee.id,
 name,
