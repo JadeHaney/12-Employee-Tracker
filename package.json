@@ -1,0 +1,25 @@
+{
+    "name": "employee-tracker",
+    "version": "1.0.0",
+    "description": "A command-line application to manage an employee database for a company, using Node.js, Inquirer, and MySQL.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JadeHaney/12-Employee-Tracker.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JadeHaney/12-Employee-Tracker/issues"
+    },
+    "homepage": "https://github.com/JadeHaney/12-Employee-Tracker#readme",
+    "dependencies": {
+        "console.table": "^0.10.0",
+        "inquirer": "^8.2.4",
+        "mysql2": "^3.9.7"
+    }
+}

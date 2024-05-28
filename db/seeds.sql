@@ -7,20 +7,20 @@ VALUES
 
 INSERT INTO job (title, salary, department_id)
 VALUES 
-('Director', 75000, 1),
-('Deputy Director', 45000, 1),
-('Assistant', 18000, 1),
-('Head Auditor', 100000, 2),
-('Accountant', 80000, 2),
-('Engineer', 55000, 3),
-('Miniature Horse', 0, 1);
+('Senior Director', 75000, 1),
+('Regional Manager', 45000, 1),
+('Assistant to the Regional Manager', 18000, 1),
+('Senior Sales Associate', 100000, 2),
+('Human Resources', 80000, 2),
+('Finance', 55000, 3),
+('Receptionist', 0, 1);
 
 INSERT INTO employee (first_name, last_name, job_id, manager_id)
 VALUES 
-('Ron', 'Swanson', 1, NULL),
-('Leslie', 'Knope', 2, 1),
-('April', 'Ludgate', 3, 2),
-('Chris', 'Traeger', 4, NULL),
-('Ben', 'Wyatt', 5, 4),
-('Mark', 'Brendanawicz', 6, NULL),
-('Lil', 'Sebastian', 7, NULL);
+('Mike', 'Wallace', 1, NULL),
+('Michael', 'Scott', 2, 1),
+('Dwight', 'Schrute', 3, 2),
+('Jim', 'Halpert', 4, NULL),
+('Toby', 'Flenderson', 5, 4),
+('Creed', 'Bratton', 6, NULL),
+('Pam', 'Beesly', 7, NULL);
